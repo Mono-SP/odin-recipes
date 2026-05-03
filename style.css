@@ -1,3 +1,76 @@
-body{
-    background-color: lightgreen;
+ /* The code below is for every page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: sienna;
+    /* background-color: rgba(144, 238, 144, 0.35); */
+}
+/* The code below is just for the homepage */
+#homepage{
+    width: 1200px;
+    background-color: papayawhip;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body#homepage{
+    padding-top: 10px;
+}
+
+div.contentWindow{
+    width: 1000px;
+    background-color: white;
+    border: double darkgoldenrod 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#homepage h1.bordered{
+    border: inset lightcoral 10px;
+}
+
+#homepage h1{
+    display: block;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    font-size: 48px;
+    /* margin-top: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}    
+
+#homepage ul{
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+#homepage li{
+    /* display: block; */
+    width: 300px;
+    padding: 5px;
+    border: solid  lightcoral 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: lightyellow;
+}
+
+#homepage a{
+    color: black;
+    font-size: 24px;
+}
+
+/* All the code below is for the recipe pages. */
+
+body#recipe{
+    background-color: yellow;
 }
