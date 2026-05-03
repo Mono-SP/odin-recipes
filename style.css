@@ -9,20 +9,10 @@ html{
     background-color: sienna;
     /* background-color: rgba(144, 238, 144, 0.35); */
 }
-/* The code below is just for the homepage */
-#homepage{
-    width: 1200px;
-    background-color: papayawhip;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-body#homepage{
-    padding-top: 10px;
-}
 
 div.contentWindow{
     width: 1000px;
+    padding: 20px;
     background-color: white;
     border: double darkgoldenrod 10px;
     margin-left: auto;
@@ -30,8 +20,21 @@ div.contentWindow{
     font-size: 20px;
 }
 
+/* The code below is just for the homepage (and the one exception of the very first one. lol) */
+#homepage, #recipe{
+    width: 1200px;
+    background-color: papayawhip;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body#homepage, body#recipe{
+    padding-top: 10px;
+}
+
+
 #homepage h1.bordered{
-    border: inset lightcoral 10px;
+    border: inset sienna 10px;
 }
 
 #homepage h1{
@@ -47,21 +50,25 @@ div.contentWindow{
 }    
 
 #homepage ul{
-    margin-top: 30px;
     padding-bottom: 20px;
+    margin-top: 30px;
 }
 
 #homepage li{
-    /* display: block; */
+    display: block;
     width: 300px;
-    padding: 5px;
-    border: solid  lightcoral 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid  sienna 5px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
-    background-color: lightyellow;
+    /* background-color: lightyellow; */
+    background-color: lemonchiffon;
 }
 
 #homepage a{
@@ -72,5 +79,27 @@ div.contentWindow{
 /* All the code below is for the recipe pages. */
 
 body#recipe{
-    background-color: yellow;
+    padding-left: 30px;
+}
+
+#recipe ul,#recipe ol,#recipe p{
+    margin-bottom: 10px;
+}
+
+#recipe h1, #recipe h2{
+    width: fit-content;
+    border-bottom: inset sienna 3px;
+}
+
+#recipe h1{
+    margin-bottom: 10px;
+}
+
+#recipe h2{
+    margin-bottom: 5px;
+}
+
+.credit{
+    width: 200px;
+    margin-left: 0px;
 }
