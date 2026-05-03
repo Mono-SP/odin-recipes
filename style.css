@@ -80,9 +80,11 @@ body#homepage, body#recipe{
 
 body#recipe{
     padding-left: 30px;
+    padding-right: 30px;
+    /* font-size: 18px; */
 }
 
-#recipe ul,#recipe ol,#recipe p{
+.spacedBelow{
     margin-bottom: 10px;
 }
 
@@ -99,7 +101,22 @@ body#recipe{
     margin-bottom: 5px;
 }
 
+hr{
+    margin-bottom: 20px;
+}
+
+.recipeCredit{
+    margin-bottom: 5px;
+}
+
 .credit{
-    width: 200px;
+    width: 250px;
     margin-left: 0px;
+    margin-bottom: 0px;
+    /* background-color: orange; */
+}
+
+#homeButtonSpacing{
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
